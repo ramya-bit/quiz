@@ -1,0 +1,93 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "JavaScript is which type of language ?",
+      "correct_answer": "Object-based",
+      "incorrect_answers": ["Assembly level", "High level", "Object-Oriented"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which one of the following also known as Conditional Expression:",
+      "correct_answer": "immediate if",
+      "incorrect_answers": [
+        "Alternative to if-else",
+        "Switch statement",
+        "If-then-else statement"
+      ]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "JavaScript is ______ Side Scripting Language.",
+      "correct_answer": "Browser",
+      "incorrect_answers": ["Client", "Server", "ISP"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is not a reserved word in JavaScript",
+      "correct_answer": "program",
+      "incorrect_answers": ["Short", "throws", "interface"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": " What is the HTML tag under which one can write the JavaScript code?",
+      "correct_answer": "script",
+      "incorrect_answers": ["link", "herf", "js"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following function of Array object joins all elements of an array into a string?",
+      "correct_answer": "Join()",
+      "incorrect_answers": ["Concat()", "Pop()", "Map()"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following function of String object creates a string to blink as if it were in a <blink> tag?",
+      "correct_answer": "blink()",
+      "incorrect_answers": ["anchor()", "Big()", "italics()"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following function of Number object forces a number to display in exponential notation?",
+      "correct_answer": "toExponential()",
+      "incorrect_answers": ["toFixed()", "toPrecision()", "toLocalString"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which built-in method removes the last element from an array and returns that element?",
+      "correct_answer": "Pop()",
+      "incorrect_answers": ["Push()", "Get()", "Last()"]
+    },
+    {
+      "category": "javascript",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following type of variable is visible everywhere in your JavaScript code?",
+      "correct_answer": "global variable",
+      "incorrect_answers": [
+        "local variable",
+        "None of the above",
+        "Both of the above"
+      ]
+    }
+  ]
+}

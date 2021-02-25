@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="name"></h1>
+        <h2>Congratulations! Final score is:</h2>
+        <h1 id="finalScore"></h1>
+        <h2>The time taken is:</h2>
+        <h1 id="finaltime"></h1>
+        <a class="btn" href="/game.html">Play Again</a>
+        <a class="btn" href="/quiz.html">Go Home</a>
+      </div>
+    </div>
+    <script>
+      const finalScore = document.getElementById("finalScore");
+      const mostRecentScore = localStorage.getItem("mostRecentScore");
+      finalScore.innerText = mostRecentScore;
+
+      const finaltime = document.getElementById("finaltime");
+
+      document.getElementById("name").innerHTML = localStorage.getItem("txt");
+      document.getElementById("finaltime").innerHTML = localStorage.getItem(
+        "time"
+      );
+      console.log(localStorage.getItem("time"));
+    </script>
+  </body>
+</html>
